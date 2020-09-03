@@ -1,0 +1,6 @@
+dn: cn=developer,ou=groups,dc=test-dc
+changetype: add
+objectclass: top
+objectclass: groupOfUniqueNames
+cn:developer
+uniqueMember: cn=test-user,dc=test-dc

@@ -1,0 +1,9 @@
+dn: cn=test-user,dc=test-dc
+changetype: add
+objectclass: inetOrgPerson
+cn: test-user
+sn: Test-user
+displayname: Test User
+mail: testuser@gmail.com
+userpassword: $2a$10$JTdTflPc0VeyHejlBy994.782bWZTJjnYaKdGdD7EEPgLUr9LXwva
+

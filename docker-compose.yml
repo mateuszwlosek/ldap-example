@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  ldap:
+    build: ./ldap
+    environment:
+      LDAP_DOMAIN: "test-dc"
+  ldap-service-example:
+    build: ./ldap-service-example
+    ports:
+      - 8080:8080
+    depends_on:
+      - ldap

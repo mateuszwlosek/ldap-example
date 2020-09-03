@@ -1,0 +1,5 @@
+dn: ou=groups,dc=test-dc
+changetype: add
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
